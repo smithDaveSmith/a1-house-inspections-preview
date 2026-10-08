@@ -1,6 +1,12 @@
 # A1 House Inspections preview
 
-Complete static website for review. GitHub Pages is the preview host; the official business domain has not been changed. **Publication is pending GitHub repository creation and Pages setup.**
+Complete static website for review. GitHub Pages is the preview host; the official business domain has not been changed.
+
+Repository: https://github.com/smithDaveSmith/a1-house-inspections-preview
+
+Preview address: https://smithdavesmith.github.io/a1-house-inspections-preview/
+
+Pages is configured to use GitHub Actions. Check the workflow run for publication status.
 
 ## Edit and run
 
@@ -33,7 +39,7 @@ The build accepts `BASE_PATH`, `SITE_ORIGIN` and `PREVIEW_MODE`. The Pages workf
 
 ## GitHub Pages
 
-Create a **new public repository** `a1-house-inspections-preview` with `main` as its default branch. Do not reuse another client's repository.
+The public repository `smithDaveSmith/a1-house-inspections-preview` uses `main` as its deployment branch. For a fresh copy, create a separate public repository with `main` as its default branch. Do not reuse another client's repository.
 
 Upload the source package's **contents** at the repository root. The root must contain `package.json`, `src/`, `public/`, `scripts/` and `.github/`; do not nest them inside another `a1-house-inspections` folder. Do not upload the ZIP itself or `dist/`.
 
